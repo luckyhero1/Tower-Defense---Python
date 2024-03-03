@@ -1,0 +1,68 @@
+{
+  "stadt": {
+    "lp": 100
+  },
+  "tuerme": [
+    {
+      "name": "RohButter",
+      "schaden": 20,
+      "reichweite": 3,
+      "preis": 100,
+      "feuerrate": 1
+    },
+    {
+      "name": "Minion",
+      "schaden": 50,
+      "reichweite": 5,
+      "preis":200,
+      "feuerrate": 0.8
+    },
+    {
+      "name": "JoJo",
+      "schaden": 100,
+      "reichweite": 7,
+      "preis": 300,
+      "feuerrate": 0.5
+    }
+  ],
+  "angreifer": [
+    {
+      "name": "Stein/r",
+      "geschwindigkeit": 1,
+      "spielgeld_wert": 5,
+      "lp": 20
+    },
+    {
+      "name": "Stein/b",
+      "geschwindigkeit": 0.8,
+      "spielgeld_wert": 10,
+      "lp": 40
+    },
+    {
+      "name": "Stein/gr",
+      "geschwindigkeit": 0.5,
+      "spielgeld_wert": 15,
+      "lp": 80
+    }
+  ],
+  "wellen": {
+      "runde 1": [
+         {
+          "Stein/r" : 5
+          }
+      ],
+      "runde 2": [
+        {
+         "Stein/r" : 10
+        }
+     ],
+      "runde 3": [
+        {
+          "Stein/b": 10
+        },
+        {
+          "Stein/gr": 5
+        }
+      ]
+  }    
+}
